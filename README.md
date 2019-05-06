@@ -5,3 +5,4 @@
 
 ### 网络架构图
 
+![](https://github.com/wxzcyy/NMT/blob/master/pictures/word_network.jpg)
