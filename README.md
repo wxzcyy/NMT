@@ -1,5 +1,5 @@
 # NMT
-本项目基于seq2seq+attention，目的是将西班牙语(Spanish)翻译成英语(english)。NMT_word和NMT_char分别是`word`级和`char`级的翻译，都是可以直接运行的完整项目。数据集来源于stanford，训练集共有216617条，验证集有851条，测试集有8064条。
+本项目框架参考于斯坦福大学CS224N课程作业。基本模型是seq2seq+attention。NMT_word和NMT_char分别是`word`级和`char`级的翻译，都是可以直接运行的完整项目。训练集共有216617条，验证集有851条，测试集有8064条。
 
 ## NMT_word
 
