@@ -1,11 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-CS224N 2018-19: Homework 5
-"""
-
-### YOUR CODE HERE for part 1i
 
 import torch.nn as nn
 import torch.nn.functional as F
@@ -26,5 +21,4 @@ class CNN(nn.Module):
         X_conv = self.conv(input)
         X_max_pool = self.max_pool(F.relu(X_conv))
         return X_max_pool
-### END YOUR CODE
 
