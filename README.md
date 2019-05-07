@@ -13,3 +13,9 @@
 
 ## NMT_char
 
+### 网络架构图
+* 编码阶段
+![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_encoder.jpg)
+
+* 译码阶段
+![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_decoder.jpg)
