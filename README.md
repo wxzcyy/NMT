@@ -6,3 +6,10 @@
 ### 网络架构图
 
 ![](https://github.com/wxzcyy/NMT/blob/master/pictures/word_network.jpg)
+
+### 使用指南
+
+首先生成词典文件`sh run.sh vocab`，然后训练`sh run.sh train`，在`Tesla V100`上总共运行了1.8小时，训练完成后再运行`sh run.sh test`测试`BELU`值，能达到`22.72`。
+
+## NMT_char
+
