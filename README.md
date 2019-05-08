@@ -15,7 +15,13 @@
 
 ### 网络架构图
 * 编码阶段
+
+参考文献[1]，在编码器一端，我们使用一个卷积层来训练word的词向量，然后输入到LSTM中。
 ![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_encoder.jpg)
 
 * 译码阶段
+
 ![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_decoder.jpg)
+
+## 参考文献
+* [1]Character-Aware Neural Language Models
