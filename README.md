@@ -28,3 +28,4 @@
 
 ## 参考文献
 * [1]Character-Aware Neural Language Models
+* [2]Highway Networks
