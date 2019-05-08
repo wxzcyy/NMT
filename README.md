@@ -23,6 +23,8 @@
 
 译码阶段过程和`word`级大致相同。对于无法译出的单词，即输出为`<unk>`，我们使用基于`char`的译码器来进行翻译。
 ![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_decoder.jpg)
+### 使用说明
+首先生成词典文件`sh run.sh vocab`，然后训练`sh run.sh train`，在`Tesla V100`上总共运行了1.8小时，训练完成后再运行`sh run.sh test`测试`BELU`值，能达到`24.18`。
 
 ## 参考文献
 * [1]Character-Aware Neural Language Models
