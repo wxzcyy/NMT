@@ -21,6 +21,7 @@
 
 * 译码阶段
 
+译码阶段过程和`word`级大致相同。对于无法译出的单词，即输出为`<unk>`，我们使用基于`char`的译码器来进行翻译。
 ![](https://github.com/wxzcyy/NMT/blob/master/pictures/char_network_decoder.jpg)
 
 ## 参考文献
